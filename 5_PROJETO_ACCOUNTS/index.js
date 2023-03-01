@@ -147,7 +147,7 @@ function getAccountBalance(){
     inquirer.prompt([
         {
             name: 'accountName',
-            messagme: 'Qual o titular da conta?'
+            message: 'Qual o titular da conta?'
         }
     ])
     .then((answer)=>{
@@ -169,7 +169,7 @@ function withdraw(){
     inquirer.prompt([
         {
             name: 'accountName',
-            messagme: 'Qual o titular da conta?'
+            message: 'Qual o titular da conta?'
         }
     ])
     .then((answer)=>{
