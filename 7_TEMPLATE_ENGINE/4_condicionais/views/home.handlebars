@@ -1,0 +1,8 @@
+<h1>Dados para View</h1>
+<p>O nome do usuário é {{user.name}} {{user.surname}}</p>
+{{#if auth}}
+    <p>
+        Você está autenticado, clique aqui para acessar a área de membros
+        <a href="/dashboard">Dashboard</a>
+    </p>
+{{/if}}

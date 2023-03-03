@@ -1,0 +1,14 @@
+<h1>Dados para View</h1>
+{{#if aprove}}
+    <p>Parabéns, seu cadastro foi aprovado</p>
+{{else}}
+    <p>Infelizmente seu cadastro foi recusado</p>
+{{/if}}
+
+<p>O nome do usuário é {{user.name}} {{user.surname}}</p>
+{{#if auth}}
+    <p>
+        Você está autenticado, clique aqui para acessar a área de membros
+        <a href="/dashboard">Dashboard</a>
+    </p>
+{{/if}}

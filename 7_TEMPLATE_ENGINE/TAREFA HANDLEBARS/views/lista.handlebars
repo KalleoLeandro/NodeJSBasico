@@ -1,0 +1,13 @@
+<div class="container">    
+    {{#each produtos}}
+    <div class="card">
+        <div class="img-card">
+            <img src={{{img}}}>
+        </div>
+        <h1>{{title}}</h1>
+        <p class="price">R${{price}}</p>
+        <p>{{description}}</p>
+        <p><a href="/produto/{{@index}}">Ver produto</a></p>
+    </div>
+    {{/each}}
+</div>
